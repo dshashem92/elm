@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/fuhosat}
-    username: ${JDBC_DATABASE_USERNAME:fuhosat_admin}
-    password: ${JDBC_DATABASE_PASSWORD:2222}
+    url: ${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/elm}
+    username: ${JDBC_DATABASE_USERNAME:elm_admin}
+    password: ${JDBC_DATABASE_PASSWORD:1234}
     dbcp2:
       max-wait-millis: 30000
       validation-query: SELECT 1
@@ -37,4 +37,4 @@ springdoc:
 
 
 server:
-  port: 8089
+  port: 8080
